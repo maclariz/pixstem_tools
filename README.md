@@ -1,1 +1,2 @@
 # pixstem_tools
+This is just a simple set of tools for commonly used operations performed by myself, and which will be documented as necessary.  Some will use bits of other libraries for 4DSTEM, such as py4DSTEM, and may read objects from such libraries, but perform things not currently implemented elsewhere, or done in a different way (either to suit my way of working, or to give more computational efficiency).
