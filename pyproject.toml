@@ -1,0 +1,18 @@
+[project]
+name = "pixstem_tools"
+# Do not edit the next line
+version = "GITHUB.RELEASE.TAG"
+authors = [
+    {name="Dr. Ian MacLaren", email="ian.maclaren@glasgow.ac.uk"},
+]
+description = "A python library to aid processing of 4DSTEM data. Developed in the School of Physics and Astronomy at the University of Glasgow."
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: GPL3.0",
+    "Intended Audience :: Education",
+    "Framework :: Jupyter",
+    "Operating System :: OS Independent",
+    "Topic :: Education :: Computer Aided Instruction (CAI)",
+]
