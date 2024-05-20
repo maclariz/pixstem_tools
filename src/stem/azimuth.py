@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from alive_progress import alive_bar
 
-class stem:
+class azimuth:
   def discfloat(ci, cj, rmin, rmax, segments):
     # This is a helper function for polar transformation which generates a meshgrid
     # of float values corresponding to r and phi values back in a cartesian i, j frame.  
