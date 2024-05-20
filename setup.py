@@ -20,7 +20,6 @@ setup(
     author="Ian MacLaren",
     author_email="ian.maclaren@glasgow.ac.uk",
     license="GNU GPLv3",
-    keywords="STEM 4DSTEM SPED",
     python_requires=">=3.60",
     install_requires=[
         "numpy >= 1.19",
