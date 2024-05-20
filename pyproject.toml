@@ -16,5 +16,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Education :: Computer Aided Instruction (CAI)",
 ]
+dependencies = "dynamic"
 [tool.setuptools]
 py-modules = []
