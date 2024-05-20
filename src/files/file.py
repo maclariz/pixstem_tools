@@ -3,8 +3,9 @@ import os, fnmatch
 class files: 
 	def file_list(path, searchterm = False):
   
-# path is a normal path, ending with a /
-# searchterm is False for no specific term, or a text string you want to find in the filenames to be listed, which will need to include wildcards
+	# path is a normal path, ending with a /
+	# searchterm is False for no specific term, or a text string you want to find 
+	# in the filenames to be listed, which will need to include wildcards
 		files = []
     		paths = os.listdir(path)
     		if searchterm == False:
