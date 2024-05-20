@@ -8,6 +8,12 @@ authors = [
 description = "A python library to aid processing of 4DSTEM data. Developed in the School of Physics and Astronomy at the University of Glasgow."
 readme = "README.md"
 requires-python = ">=3.0"
+dependencies = [
+        "numpy >= 1.19",
+        "scipy >= 1.5.2",
+        "matplotlib >= 3.2.2",
+        "alive-progress >= 3.0.0",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: GPL3.0",
