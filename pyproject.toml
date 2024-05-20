@@ -1,7 +1,7 @@
 [project]
 name = "pixstem_tools"
 # Do not edit the next line
-version = "v0.1.0"
+version = "v0.1.5"
 authors = [
     {name="Dr. Ian MacLaren", email="ian.maclaren@glasgow.ac.uk"},
 ]
@@ -22,5 +22,6 @@ dependencies = [
         "matplotlib >= 3.2.2",
         "alive-progress >= 3.0.0",
 ]
-[tool.setuptools]
-py-modules = []
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
