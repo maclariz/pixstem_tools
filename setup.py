@@ -26,6 +26,7 @@ setup(
         "numpy >= 1.19",
         "scipy >= 1.5.2",
         "matplotlib >= 3.2.2",
+        "alive-progress >= 3.0.0"
     ],
     extras_require={
     },
